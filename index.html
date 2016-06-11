@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vacation Suggester</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.0.0.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Vacation Suggestions</h1>
+      <h2>Please fill out our brief questionnaire to find out your individualized vacation suggestions</h2>
+
+<p>Age</p>
+<div class="radio">
+  <label>
+    <input type="radio" name="age" value="0-20" checked>
+    0-20 years old
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="age" value="21-30">
+    21-30 years old
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="age" value="31+">
+    31 or older
+  </label>
+</div>
+
+<p>Preferences</p>
+<div class="radio">
+  <label>
+    <input type="radio" name="preference" value="hot" checked>
+    hot and muggy
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="preference" value="cold">
+    bitterly cold
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="preference" value="wet">
+    storms and tsunamis
+  </label>
+</div>
+
+<p>How many will be in your party?</p>
+<div class="radio">
+  <label>
+    <input type="radio" name="guests" value="1" checked>
+    Just me
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="guests" value="2">
+    The two of us
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="guests" value="3+">
+    Me and the family
+  </label>
+</div>
+
+<p>What do you want to drink on your vacation?</p>
+<select class="form-control" id="beverage">
+  <option value="umbrella">Umbrella Drinks</option>
+  <option value="tea">Hot Tea</option>
+  <option value="beer">PBR</option>
+</select>
+
+<div class="form-group">
+  <label for="color">What is your favorite color?</label>
+  <input id="color" class="form-control" type="color">
+</div>
+
+<form id="some-form">
+  <button type="submit" class="btn">Submit!</button>
+</form>
+
+</div>
+</body>
+</html>

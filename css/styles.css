@@ -1,0 +1,16 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: darkblue;
+  background-color: yellow;
+}
+
+button {
+  background-color: yellow;
+  color: darkblue;
+}
+#florida, #norway, #hawaii {
+  display: none;
+}
